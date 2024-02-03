@@ -1,0 +1,245 @@
+
+
+/* created by online student .ie */
+
+body,
+h1,h2,h3,h4,h5,h6
+li,ul
+{
+    padding: 0;
+    margin: 0;
+}
+
+section.sectionDay2{
+    max-width: 1700px;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: green;
+}
+
+.warning {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    background-color: red;
+    color: black;
+    padding: 10px;
+}
+
+.warning span:nth-child(1){
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.warning span:nth-child(2){
+    font-size: 20px;
+    font-weight: 900;
+
+    animation: animate 1.5s linear infinite; 
+}
+
+@keyframes animate { 
+    0% { 
+        opacity: 0.8; 
+    } 
+
+    50% { 
+        opacity: 0.9; 
+    } 
+
+    100% { 
+        opacity: 0; 
+    } 
+} 
+
+header.headerDay2{
+    width: 100%;
+    height: 15vh;
+    background-color: #fff;
+    padding: 0px 2%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+main.mainDay2{
+    width: 100%;
+    height: 65vh;
+
+    background: rgb(254, 255, 169);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigationDay2{
+   padding: 5px;
+   max-width: 700px;
+   width: 100%;
+}
+
+ul.ulDay2{
+    border: 2px solid white;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li.liDay2{
+    height: 50px;
+    border: 1px solid black;
+    margin: 2px;
+    display: flex;
+    flex: 1;
+    cursor: pointer;
+    position: relative;
+}
+
+.liDay2:nth-child(1){
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.liDay2 a {
+    background-color: green;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body.body-page-2{
+    max-width: 1700px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+}
+
+ section#all-pages{
+    max-width: 200px;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#all-pages div:first-child {
+    font-size: 25px;
+}
+
+.page-5{
+    background-color: red;
+}
+
+.tooltip{
+    visibility: hidden;
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    border: 2px dotted black;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.liDay2:hover .tooltip {
+    visibility: visible;
+}
+
+.tableDay2{
+    background-color: #cdcdcd;
+}
+
+table, th, td, tr {
+    border: 2px solid rgb(79, 79, 79);
+    border-collapse: collapse;
+  }
+
+  main table {
+    width: 50%;
+    height: 300px;
+  }
+
+  .th-1{
+    font-style: italic;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  td{
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .img-wrapper-Day2{
+    width: 50%;
+    height: 25%;
+    margin-top: 10px;
+    order: 1px solid black;
+    display: flex;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+  }
+
+  .img-wrapper-Day2 a{
+    
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .img-wrapper-Day2 img{
+    width: 100%;
+    height: 120px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; 
+  }
+
+  /*------------------------------------------------------------------*/
+
+  /*footer START*/
+
+  footer.footerDay2{
+    width: 100%;
+    height: 20vh;
+    
+    background: rgb(169, 170, 90);
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 10px;
+    box-sizing: border-box;  
+}
+
+footer.footerDay2 span {
+    width: fit-content;   
+}
+
+.footerDay2 a{
+    color: white;
+}
+
+  /*footer END*/
+ 
+ 
+
+
